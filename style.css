@@ -259,6 +259,8 @@ section {
 .about-details-container{
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 13rem;
+    gap: 2rem;
 }
 
 .about-containers,.about-details-container{
@@ -334,7 +336,7 @@ article .icon{
 }
 
 /* projects  */
-#project{
+#projects{
     position:relative;
 }
 
@@ -358,7 +360,10 @@ article .icon{
     color: black;
     border-color: rgb(163, 163, 163);
 } */
-.contact{
+#project{
+    position:relative;
+}
+#contact{
     display: flex;
     justify-content: center;
     flex-direction: column;

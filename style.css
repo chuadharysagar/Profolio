@@ -161,10 +161,20 @@ section {
 }
 
 .section_pic_container {
-    display: flex;
     height: 400px;
     width: 400px;
+    border-radius:50%;
+    border: 2px solid black;
     margin: auto 0;
+    background-image: url("./assets/profile-pic.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.section_pic_container img{
+    width:100%;
+    height: 100%;
 }
 
 .section_text {
@@ -259,7 +269,6 @@ section {
 .about-details-container{
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 13rem;
     gap: 2rem;
 }
 
@@ -269,7 +278,7 @@ section {
 
 .about-pic{
     border-radius: 2rem;
-    height:400px;
+    height:450px;
     width:400px;
     margin: auto 0;
 }
